@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T10:19:18.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="lFk28Xj7xO3xSJny66bB" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T10:33:55.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Ns1nR5_MTDq8tAKITmKY" version="15.0.2" type="github">
   <diagram id="PQ9QEShcIzSI59_LjxII" name="Page-1">
     <mxGraphModel dx="1773" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="4C3PrXh24EiCoZ4Kap1v-16" value="SPA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="840" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4C3PrXh24EiCoZ4Kap1v-17" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-17" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;" edge="1" parent="1" source="4C3PrXh24EiCoZ4Kap1v-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="902.5" y="2286" as="sourcePoint" />
             <mxPoint x="897.5" y="150" as="targetPoint" />
@@ -191,6 +191,53 @@
         </mxCell>
         <mxCell id="4C3PrXh24EiCoZ4Kap1v-47" value="Kahoot code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4C3PrXh24EiCoZ4Kap1v-46">
           <mxGeometry x="0.1647" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-48" value="Enter Kahoot code&amp;nbsp;&lt;br&gt;(Via Url OR input)" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="200" as="sourcePoint" />
+            <mxPoint x="900" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-49" value="Get Kahoot" style="endArrow=classic;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="220" as="sourcePoint" />
+            <mxPoint x="290" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-50" value="Result: room found/not found" style="endArrow=none;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;endFill=0;startArrow=classic;startFill=1;exitX=-0.05;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4C3PrXh24EiCoZ4Kap1v-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="265" as="sourcePoint" />
+            <mxPoint x="290" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-51" value="" style="endArrow=classic;html=1;dashed=1;exitX=-0.1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4C3PrXh24EiCoZ4Kap1v-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="330" as="sourcePoint" />
+            <mxPoint x="730" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-55" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="190" width="40" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-56" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="4C3PrXh24EiCoZ4Kap1v-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="902.5" y="2286" as="sourcePoint" />
+            <mxPoint x="897.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-57" value="" style="endArrow=classic;html=1;dashed=1;exitX=1.025;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4C3PrXh24EiCoZ4Kap1v-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="886" y="340.07000000000005" as="sourcePoint" />
+            <mxPoint x="1060" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4C3PrXh24EiCoZ4Kap1v-58" value="Loading view" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4C3PrXh24EiCoZ4Kap1v-57">
+          <mxGeometry x="-0.3094" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
