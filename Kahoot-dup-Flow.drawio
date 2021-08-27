@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T04:17:19.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="5bHAZ1An_Wd-po41niYz" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T04:18:16.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="vIunMzcajI6JPccX_MX5" version="15.0.2" type="github">
   <diagram id="PQ9QEShcIzSI59_LjxII" name="Page-1">
     <mxGraphModel dx="946" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="2NKIUHscp2k17xWDX_88-1" value="好的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="50" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKIUHscp2k17xWDX_88-2" value="Room Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKIUHscp2k17xWDX_88-5" value="Players" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
