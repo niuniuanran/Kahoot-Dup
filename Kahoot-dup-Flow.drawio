@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T23:56:19.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="auQRvThLBXTBGD6QhqaF" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T15:07:18.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="br1jF34r-pUQBqPNgoOG" version="15.0.3" type="github">
   <diagram id="PQ9QEShcIzSI59_LjxII" name="Page-1">
     <mxGraphModel dx="2013" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,8 +258,11 @@
             <mxPoint x="290" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MKVm6UEFi0YsUZlSpXa_-1" value="奇怪 我之前的update呢&lt;br&gt;我之前是讲说最好可以有一个问题的resource manage，包括add delete etc。&lt;br&gt;我最近在纠结database，不过感觉先用傻办法放弃database把controller弄出来，api给到你先。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MKVm6UEFi0YsUZlSpXa_-1" value="奇怪 我之前的update呢&lt;br&gt;我之前是讲说最好可以有一个问题的resource manage，包括add delete etc。&lt;br&gt;我最近在纠结database，不过感觉先用傻办法放弃database把controller弄出来，api给到你先。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-350" y="70" width="220" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FldVHInthALevvX5C0gw-1" value="答案里面，我现在的配置是至少有两个最多有四个，第三个和第四个如果没设置的时候你更期望时null还是“”还是压根不反回这个。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="525" width="220" height="175" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
