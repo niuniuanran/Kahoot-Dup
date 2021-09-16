@@ -1,0 +1,334 @@
+{
+	"info": {
+		"_postman_id": "d9250b55-4077-4daf-99d6-90de4fc0626b",
+		"name": "TheApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Kahoot",
+			"item": [
+				{
+					"name": "Rooms",
+					"item": [
+						{
+							"name": "List Rooms",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/rooms",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"rooms"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add room",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"roomId\": \"addroomyes\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/rooms",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"rooms"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete room",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"roomId\": \"addroomyes\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/rooms",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"rooms"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Room",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/rooms/loki",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"rooms",
+										"loki"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Quizzes",
+					"item": [
+						{
+							"name": "List Quizzes",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Quiz",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\n    \"title\": \"test title\", \n    \"description\": \"description test\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/quizzes",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Quiz",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/quizzes",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Quiz",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes/1",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Quiz",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1, \n    \"title\": \"test title\", \n    \"description\": \"description test\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/quizzes",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Questions",
+					"item": [
+						{
+							"name": "List Questions",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes/1/questions",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1",
+										"questions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Question",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"type\": \"STANDARD\",\n    \"questionString\": \"This is a standard question with two selections, you can have 2 - 4 selections in the question, for this one, correct answer is: [TWO]\",\n    \"answerOne\": \"One\",\n    \"answerTwo\": \"Two\",\n    \"answers\": [\n        \"TWO\"\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{appurl}}/quizzes/1/questions",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1",
+										"questions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Question",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes/1/questions",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1",
+										"questions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Question",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes/1/questions",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1",
+										"questions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Question",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{appurl}}/quizzes/1/questions/1",
+									"host": [
+										"{{appurl}}"
+									],
+									"path": [
+										"quizzes",
+										"1",
+										"questions",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
